@@ -5,7 +5,7 @@ usuario = ''
 senha = ''
 tentativas = 0
 
-while (usuario != "caua" and senha != "1234") and tentativas <5:
+while (usuario != "caua" or senha != "1234") and tentativas <5:
     usuario = input("Digite seu usuario: ")
     senha = input("Digite sua senha: ")
     tentativas +=1
